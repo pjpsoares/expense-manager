@@ -1,0 +1,128 @@
+body {
+  margin: 0px;
+}
+
+p {
+  margin: 5px;
+}
+
+#root {
+  width: 320px;
+  margin: auto;
+  background-color: #f7f8f9;
+}
+
+.checkbox-container {
+  width: 50%;
+  display: inline-block;
+  padding-top: 5px;
+}
+
+.checkbox-input {font-size: 16px;}
+
+.checkbox-label {
+  font-size: 16px;
+}
+
+.menu {
+  list-style-type: none;
+  text-align: right;
+  padding: 10px 5px;
+  margin: 0px;
+}
+
+.menu-entry {
+  display: inline-block;
+  font-size: 30px;
+  padding: 4px;
+}
+
+.menu-entry-icon {
+  color: #abaeb2;
+}
+
+.menu-entry-icon:hover {
+  color: #4c4d4f;
+}
+
+.user-container {
+  border: 1px solid;
+  border-radius: 4px;
+}
+
+.user-rows {
+  background-color: gray;
+  float: clear;
+}
+
+.user-name-container {height: 36px;cursor: pointer;}
+
+i.user-dropdown-icon {
+  font-size: 20px;
+  padding-left: 4px;
+}
+
+.user-name {
+  display: inline-block;
+  margin: 10px;
+  width: 181px;
+}
+
+.user-total {
+  display: inline-block;
+  margin: 10px;
+  width: 75px;
+  text-align: right;
+  font-weight: bold;
+}
+
+.row {border: 1px solid;}
+
+.row__details {
+  display: inline-block;
+  width: 274px;
+  vertical-align: middle;
+}
+
+.row__description {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  vertical-align:bottom;
+}
+
+.row__edit {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+i.button {
+  font-size: 30px;
+  cursor: pointer;
+  margin: 6px;
+}
+
+p.row__value {
+    font-weight: bold;
+}
+
+.action-panel {
+    text-align: right;
+}
+
+
+i.signal-selector {
+    font-size: 30px;
+    margin: 6px;
+    margin-right: 0px;
+    color: #e8e8e8;
+    cursor: pointer;
+}
+
+i.signal-selector-plus.selected {
+    color: #64a94c;
+}
+
+i.signal-selector-minus.selected {
+    color: #c7411b;
+}
