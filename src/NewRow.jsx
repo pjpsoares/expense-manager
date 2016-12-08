@@ -55,7 +55,6 @@ class NewRow extends Component {
       return;
     }
 
-    value = Math.abs(this.refs.valueInput.value.trim());
     if (operation === 'minus') {
       value = value * -1;
     }
@@ -110,7 +109,7 @@ class NewRow extends Component {
           <i className={ signalMinusClass } aria-hidden="true" onClick={ this.minus.bind(this) }></i>
         </div>
         <div>
-          <span>Value: </span><input ref="valueInput" type="number" value={ value } onChange={ this.handleValueChange.bind(this) }></input>
+          <span>Value: </span><input min="0" ref="valueInput" type="number" value={ value } onChange={ this.handleValueChange.bind(this) }></input>
         </div>
         <div>
           <span>Description: </span><input ref="descriptionInput" type="text" value={ description } onChange={ this.handleDescriptionChange.bind(this) }></input>
