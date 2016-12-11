@@ -3,7 +3,6 @@ import { observer } from 'mobx-react';
 import { rowsState, userState } from './Store';
 import Row from './Row';
 import User from './User';
-import Navigation from './Navigation';
 
 @observer
 class Home extends Component {
@@ -45,7 +44,6 @@ class Home extends Component {
   render() {
     return (
       <div>
-        <Navigation/>
         { this.renderGlobal() }
         { this.renderUsers() }
       </div>
